@@ -15,3 +15,12 @@ console.log(boolean)
 let number=13
 let string=String(number);
 //number toh bangya but still string hai
+/*operations start*/
+let val=4
+let negval=-val
+console.log(negval); //log ke andar we can directylt do /,//,**(power) nd all functions
+// to add 2 strings simply do as python
+++val;//val++ also gives the same the result 
+//but jab value return karunga ie. val1=++val toh val1 equal hoga ++val ke but agar val++ kiya hoga toh val1 ke value val dega 
+// return pehle hojati value post ++ me
+console.log(val);
