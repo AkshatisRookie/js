@@ -26,4 +26,4 @@ console.log(Array.from({name:"akshat"}));//return an empty array because key pai
 let sc1=1
 let sc2=2
 let sc3=4
-console.log(Array.of(sc1,sc2,sc3));//returns list
+console.log(Array.of(sc1,sc2,sc3));//returns list 
