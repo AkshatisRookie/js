@@ -9,6 +9,6 @@ console.log(Object.values(tinder))
 //destructuring of objects
 const {name:fullname}=tinder
 console.log(fullname); //name changed 
-const func=({name})=>{ //arrow loops
+const func=({name})=>{ //arrow loops FUNCTION
 
 }
