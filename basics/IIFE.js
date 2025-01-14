@@ -1,6 +1,6 @@
 /*IMmediately invoked functional expression(IIFEs)
-1) used to reduce the polluiton in global or in any variable
-2) to immediately call fucntion
+1) used to reduce the pollution in global or in any variable
+2) to immediately call function
 */
 /* FORMAT --
             ()()
