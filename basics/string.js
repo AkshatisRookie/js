@@ -2,7 +2,7 @@ const name="akshat"
 const age=20
 const game=new String("akshat")
 console.log(`hello myself ${name} band age is ${age}`); //use of backticks{button on escape{`}
-console.log(game.__proto__);//shows empty list
+console.log(game.__proto__);//shows empty object
 console.log(game.toUpperCase());//not change the given string
 //to know more about strings fucntion go to console
 // type this=>const game=new String("akshat")
