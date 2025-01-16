@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body style="background-color: black;color:white">
+    <div class="parent">
+        <div class="class">Mon</div>
+        <div class="class">Tue</div>
+        <div class="class">weD</div>
+    </div>
 </body>
+<script>
+    const parent=document.querySelector('.parent') //impp to save in const
+    console.log(parent);
+    console.log(parent.children[1].innerHTML);
+    console.log(parent.childNodes);  // gives node list from parent
+    
+</script>
 </html>

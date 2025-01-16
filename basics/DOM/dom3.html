@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy happy happy</title>
+</head>
+<body style=" background-color: black;
+color: wheat;">
+</body>
+<script>
+    //traverse krna and add karna
+    const div=document.createElement('div');
+    console.log(div);
+    div.className="main" //.classname tag adds div
+    div.id=Math.round(Math.random()*10) //adding amths
+    div.setAttribute("talent","hunt")//adds key value
+    div.style.backgroundColor="green"//less time taken because override mahi krtan changes ko
+    div.innerText="hello "
+    const add1=document.createTextNode("hii")
+    div.appendChild(add1) //adding more child
+    document.body.appendChild(div) //finally display kardega
+</script>
+</html>
